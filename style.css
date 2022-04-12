@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    background-color: #e7e8e9;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-family: 'Crete Round', serif;
+  }
+
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.nav-items {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+    font-size: 32px;
+    color: #fff;
+}
+
+.hamburger li {
+    list-style-type: none;
+}
+
+.hamburger li a {
+    text-decoration: none;
+}
+
+.info {
+    padding: 20px 15px 17px 15px;
+}
+
+.nav-items li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* span .font-awesome {
+    color: #fff;
+    font-size: 40px;
+} */
+
+.social-icons {
+    display: flex;
+}
+
+.nav-items li a {
+    text-decoration: none;
+}
+
+.info h1 {
+    /* width: 330px; */
+    color: rgb(0, 0, 0);
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    font-size: 32px;
+    margin: 12px 0;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+
+    /* font-family: 'Roboto', sans-serif; */
+    mix-blend-mode: screen;
+    background: rgb(255, 255, 255, 0.9);
+}
+
+.info h4 {
+    color: #ec5242;
+    margin-top: 10px;
+    /* line-height: 18px; */
+}
+
+.info .box-boder {
+    /* border: 1px solid #fff; */
+    /* padding: 10px 14px; */
+    margin-top: 30px;
+    color: #fff;
+}
+
+.info .dark {
+    color: #575757;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.info .dark-2 {
+    font-size: 12px;
+}
+
+.info {
+    background-image: url('./images/background-img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.program {
+    background-image: url('./images/background-img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:612px;
+}
+.program h4 {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.line {
+    width: 10%;
+    margin: 0 auto;
+    color: #ec5242;
+    margin-bottom: 20px;
+    border: 1px solid #ec5242;
+}
+
+.feature-musician h2 {
+    background: #e7e8e9;
+    text-align: center;
+    font-size: 22px;
+    margin: 12px 0;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #575757;
+
+}
+
+.program li {
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #ec5242;
+    /* margin-bottom: 20px; */
+    margin: 20px auto;
+    text-align: center;
+    align-content: center;
+    list-style-type: none;
+    /* padding: auto 10px; */
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    /* margin: 10px 0 20px 0; */
+}
+
+.program li a {
+    text-decoration: none;
+    /* padding-top: 30px; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    width: 330px;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: #575757;
+    margin: 10px auto;
+}
+
+.card h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ec5242;
+    padding: 20px 10px 10px 10px;
+}
+
+.card p {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 10px 0;
+    font-family: 'Inter', sans-serif;
+    /* padding: 20px 10px 10px 10px; */
+}
+
+.partners {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background: #575757;
+}
+
+.partners h4 {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.footer {
+    display: flex;
+    background: #fff;
+    padding: 5px 10px 20px 10px;
+}
+
+.footer img {
+    margin-top: 30px;
+}
+
+.foot {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin: auto 20px;
+    letter-spacing: 0.03em;
+}
+
+.footer h6 {
+    padding-bottom: 10px;
+}
+
+.footer button {
+    border-style: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ec5242;
+}
+
+.footer p {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-items {
+        display: block;
+    }
+    .hamburger {
+        display: none;
+    }
+}
