@@ -47,22 +47,25 @@
     text-decoration: none;
 }
 
-.info {
-    padding: 20px 15px 17px 15px;
-}
-
 .nav-items li {
     text-decoration: none;
     list-style-type: none;
 }
 
-/* span .font-awesome {
-    color: #fff;
-    font-size: 40px;
-} */
-
 .social-icons {
     display: flex;
+    background: #30333a;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 13vw;
+}
+
+.social-icons li {
+    padding-left: 30px;
+}
+
+.social-icons li a {
+    color: #fff;
 }
 
 .nav-items li a {
@@ -70,7 +73,6 @@
 }
 
 .info h1 {
-    /* width: 330px; */
     color: rgb(0, 0, 0);
     line-height: 34px;
     letter-spacing: 0.03em;
@@ -78,21 +80,16 @@
     margin: 12px 0;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-
-    /* font-family: 'Roboto', sans-serif; */
     mix-blend-mode: screen;
     background: rgb(255, 255, 255, 0.9);
 }
 
 .info h4 {
     color: #ec5242;
-    margin-top: 10px;
-    /* line-height: 18px; */
+    margin-top:50px;
 }
 
 .info .box-boder {
-    /* border: 1px solid #fff; */
-    /* padding: 10px 14px; */
     margin-top: 30px;
     color: #fff;
 }
@@ -113,6 +110,119 @@
     background-image: url('./images/background-img1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 20px 15px 17px 15px;
+}
+
+.info-about {
+    background: #f7f7f7;
+}
+
+.info-about .hamburger {
+    color: #575757;
+    margin-left: 10px;
+}
+
+.section-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6vw 5vw;
+    background: #f7f7f7;
+}
+
+.section-about h1 {
+    color: #ec5242;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 0;
+}
+
+.section-about h4 {
+    color: #ec5242;
+}
+
+.section-about h2 {
+    color: #575757;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-para {
+    width: 320px;
+    border: 1px solid #fff;
+    background: #fff;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.previouse-events li {
+    margin: 15px 15px 20px 20px;
+    list-style-type: none;
+    padding: 40px 10px 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.event {
+    width: 300px;
+    height: 160px;
+    box-sizing: border-box;
+    background: #ec5242;
+}
+
+.one {
+    background-image: url(./images/event2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two {
+    background-image: url(./images/event3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-event {
+    background: #fff;
+}
+
+.main-event h2 {
+    padding: 20px 0;
+}
+
+.main-event .line2 {
+    width: 100%;
+}
+
+.event h3 {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-about a {
+    color: #30333a;
+}
+
+.muzik-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6vw 5vw;
+    border: 1px solid #d3d3d3;
+    height: 40px;
+    width: 300px;
+}
+
+.muzik-logo h3 {
+    color: #ec5242;
+}
+
+.dark-about {
+    font-family: 'Inter', sans-serif;
 }
 
 .program {
@@ -151,20 +261,15 @@
     height: 60px;
     box-sizing: border-box;
     background: #ec5242;
-    /* margin-bottom: 20px; */
-    margin: 20px auto;
+    margin: 24px auto 10px auto;
     text-align: center;
     align-content: center;
     list-style-type: none;
-    /* padding: auto 10px; */
-    /* margin-top: 20px; */
     padding-top: 20px;
-    /* margin: 10px 0 20px 0; */
 }
 
 .program li a {
     text-decoration: none;
-    /* padding-top: 30px; */
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #fff;
@@ -175,7 +280,7 @@
     width: 330px;
     height: 80px;
     box-sizing: border-box;
-    background-color: #575757;
+    background-color: #30333a;
     margin: 10px auto;
 }
 
@@ -185,15 +290,39 @@
     font-weight: 700;
     font-size: 15px;
     color: #ec5242;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 0 10px;
 }
 
 .card p {
     font-weight: normal;
     font-size: 14px;
+    color: #fff;
     margin: 10px 0;
     font-family: 'Inter', sans-serif;
-    /* padding: 20px 10px 10px 10px; */
+}
+
+.feature-musician hr {
+    width: 35px;
+}
+
+.feature-musician li {
+    margin-bottom: 20px;
+}
+
+.musicians {
+    display: flex;
+}
+
+.musician-about {
+    margin: 4px 0 0 20px;
+}
+
+.musician-about p {
+    font-size: 14px;
+}
+
+.stars {
+    margin: 10px 12px;
 }
 
 .partners {
@@ -207,6 +336,21 @@
     text-align: center;
     font-weight: bold;
     padding: 15px 0;
+    color: #fff;
+}
+
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.sponsors li {
+    list-style-type: none;
+    padding-right: 20px;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .footer {
@@ -255,5 +399,110 @@
     }
     .hamburger {
         display: none;
+    }
+
+    .nav-bar {
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px 200px 2px 150px;
+    }
+
+    .nav-bar .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+    }
+
+    .nav-bar .menu li {
+        padding-right: 40px;
+    }
+
+    .nav-bar .menu li a {
+        color: #575757;
+    }
+
+    .btn {
+        display: none;
+        border: 3px solid #ec5242;
+        font-weight: 700;
+        height: 48px;
+        width: 130px;
+        color: #ec5242;
+        background: #fff;
+    }
+
+    .info {
+        padding: 31px 308px 10px 156px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        height: 80px;
+        box-sizing: border-box;
+        margin: 10px auto;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 5px 2px 5px 2px;
+    }
+    .card img {
+        margin: 5px auto;
+    }
+
+    .card h5 {
+        text-align: center;
+    }
+
+    .card .cent {
+        margin: 5px 80px 5px 80px;
+    }
+
+    .card p {
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .previouse-events {
+        display: flex;
+    }
+
+    .program li {
+        margin: 390px auto 10px auto;
+    }
+
+    .footer {
+        padding: 10px 12px 10px 225px;
+    }
+
+    .footer li {
+        padding: 5px 10px 20px 10px;
+        align-items: center;
+    }
+
+    .footer h6 {
+        margin: 62px 10px 14px 2px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .btn {
+        display: block;
+    }
+
+    .info h1 {
+        width: 340px;
+    }
+
+    .info p {
+        width: 440px;
     }
 }
