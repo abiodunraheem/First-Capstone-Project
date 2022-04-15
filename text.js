@@ -1,4 +1,4 @@
-//Js for  mobile menu
+// Js for mobile menu
 const mobileMenu = document.getElementById('mobileMenu');
 const openHamburger = document.getElementById('bars');
 const closeHamburger = document.getElementById('closeBtn');

@@ -2,7 +2,7 @@
 
 > This is the javascript capstone project which end first module.
 
-React summit is the project which shows react js conferences, it provide access of events details such as event description, program available during the event, details of the speakers & instructors, and sponsors of the event,
+GlobalMuzic event is the project which brings music lovers all around the globe to one place. it provide access of events details such as event description, program available during the event, details of the musicians & their class of music, and sponsors of the event,
 Project view is available and compatible with all device screen (mobile device, Ipad, laptop and desktop).
 
 ## Built With
