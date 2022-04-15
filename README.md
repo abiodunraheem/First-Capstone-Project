@@ -1,4 +1,4 @@
-# React summit 2022
+# GlobalMuzic Easter Fiester 2022
 
 > This is the javascript capstone project which end first module.
 
@@ -15,7 +15,7 @@ Project view is available and compatible with all device screen (mobile device, 
 - Fontawesome icons
 
 ## Live Demo
-[rwubakwanayo.github.io.](https://rwubakwanayo.github.io/Javascript-Capstone-Project/)
+[abiodun.github.io.](https://abiodunraheem.github.io/First-Capstone-Project/)
 ## Getting Started
 To get a local copy open and running follow these simple example steps.
 ### Setup
@@ -28,7 +28,7 @@ To get a local copy open and running follow these simple example steps.
 ### Usage
 Navigate to the Folder and Double Click on index.html File or you can simply open project with live server in your editor.
 Project will open and running to your Browser.
-Learn more about [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer#:~:text=Shortcuts%20to%20Start%2FStop%20Server&text=Open%20a%20HTML%20file%20and,on%20Open%20with%20Live%20Server%20.&text=Open%20the%20Command%20Pallete%20by,Server%20to%20stop%20a%20server)
+
 ## Authors
 :bust_in_silhouette: **Author**
 - GitHub: [@githubhandle](https://github.com/abiodunraheem)
