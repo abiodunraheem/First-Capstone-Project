@@ -1,4 +1,4 @@
-// mobile menu
+//Js for  mobile menu
 const mobileMenu = document.getElementById('mobileMenu');
 const openHamburger = document.getElementById('bars');
 const closeHamburger = document.getElementById('closeBtn');
@@ -16,7 +16,7 @@ link.forEach((link) => {
   link.addEventListener('click', closeModal);
 });
 
-// Star musicians
+// Js for Star musicians
 const musicStars = [
   {
     id: '1',
