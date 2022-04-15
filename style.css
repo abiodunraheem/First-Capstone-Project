@@ -85,6 +85,13 @@ p {
   text-decoration: none;
 }
 
+.program li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
 .nav-bar ul li a:hover {
   color: #ec5242;
 }
@@ -283,13 +290,6 @@ p {
   align-content: center;
   list-style-type: none;
   padding-top: 20px;
-}
-
-.program li a {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  color: #fff;
 }
 
 .card {

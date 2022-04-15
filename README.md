@@ -15,7 +15,7 @@ Project view is available and compatible with all device screen (mobile device, 
 - Fontawesome icons
 
 ## Live Demo
-[rwubakwanayo.github.io.react-summit](https://rwubakwanayo.github.io/Javascript-Capstone-Project/)
+[rwubakwanayo.github.io.](https://rwubakwanayo.github.io/Javascript-Capstone-Project/)
 ## Getting Started
 To get a local copy open and running follow these simple example steps.
 ### Setup
@@ -31,8 +31,10 @@ Project will open and running to your Browser.
 Learn more about [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer#:~:text=Shortcuts%20to%20Start%2FStop%20Server&text=Open%20a%20HTML%20file%20and,on%20Open%20with%20Live%20Server%20.&text=Open%20the%20Command%20Pallete%20by,Server%20to%20stop%20a%20server)
 ## Authors
 :bust_in_silhouette: **Author**
-- GitHub: [@githubrwubakwanayo](https://github.com/RWUBAKWANAYO)
-- LinkedIn: [Rwubakwanayo](https://www.linkedin.com/in/rwubakwanayo-olivier)
+- GitHub: [@githubhandle](https://github.com/abiodunraheem)
+- Twitter: [@twitterhandle](https://twitter.com/@abiodunraheem23)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abiodun-raheem-908b33154)
+
 ## :handshake: Contributing
 
 Contributions, issues, and feature requests are welcome!
