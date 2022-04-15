@@ -13,9 +13,11 @@ Project view is available and compatible with all device screen (mobile device, 
 - Fontawesome icons
 
 ## Live Demo
+
 [abiodun.github.io.](https://abiodunraheem.github.io/First-Capstone-Project/)
+
 ## Getting Started
-To get a local copy open and running follow these simple example steps.
+To get a local copy, open and running follow these simple example steps:
 ### Setup
 - Download or Clone Repository.
 - In case you downloaded repository Extract ZIP Folder.
