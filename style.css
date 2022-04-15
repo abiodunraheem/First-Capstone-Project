@@ -85,6 +85,14 @@ p {
   text-decoration: none;
 }
 
+.nav-bar ul li a:hover {
+  color: #ec5242;
+}
+
+.nav-bar ul li a:active {
+  color: #ec5242;
+}
+
 .info h1 {
   color: rgb(0, 0, 0);
   line-height: 34px;
@@ -396,6 +404,10 @@ p {
   margin-top: 30px;
 }
 
+.btn {
+  display: block;
+}
+
 .foot {
   font-family: 'Inter', sans-serif;
   font-weight: normal;
@@ -576,7 +588,7 @@ p {
 
 @media screen and (min-width: 992px) {
   .btn {
-    display: block;
+    display: none;
   }
 
   .info h1 {
