@@ -641,6 +641,10 @@ p {
     text-align: center;
   }
 
+  .about-me {
+    display: none;
+  }
+
   .stars {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -672,6 +676,7 @@ p {
     background: #30333a;
     display: flex;
     justify-content: center;
+    height: 150px;
   }
 
   #foot-sec h6 {
