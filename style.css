@@ -443,9 +443,11 @@ p {
 /* footer style */
 .footer {
   display: flex;
+  height: 100px;
   background: #fff;
   align-items: center;
   justify-content: center;
+  padding: 0 10px;
 }
 
 .btn {
@@ -478,7 +480,7 @@ p {
 }
 
 .footer p {
-  font-size: 11px;
+  font-size: 9px;
   font-weight: normal;
 }
 
@@ -553,7 +555,7 @@ p {
   }
 
   .footer li {
-    padding: 5px 10px 20px 10px;
+    padding: 0 10px 10px 10px;
     align-items: center;
   }
 
@@ -657,12 +659,22 @@ p {
     margin: 62px 10px 14px 2px;
   }
 
-  #foot-sec {
-    background: #30333a;
+  #footer-logo {
+    padding-top: 50px;
   }
 
-  .logo-1 img {
-    margin: 9px 0 -58px 0;
+  #foot-sec {
+    background: #30333a;
+    display: flex;
+    justify-content: center;
+  }
+
+  #foot-sec h6 {
+    color: #d3d3d3;
+  }
+
+  #foot-sec p {
+    color: #d3d3d3;
   }
 
   .about-para {
@@ -677,6 +689,10 @@ p {
 
   .line {
     margin-bottom: 35px;
+  }
+
+  #camp {
+    display: block;
   }
 
   .program {
