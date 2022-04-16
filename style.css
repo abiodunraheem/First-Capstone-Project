@@ -260,7 +260,7 @@ p {
   text-align: center;
   padding: 6vw 5vw;
   border: 1px solid #d3d3d3;
-  height: 40px;
+  height: 60px;
   width: 300px;
 }
 
@@ -327,7 +327,6 @@ p {
   font-size: 14px;
   color: #fff;
   font-family: 'Lato', sans-serif;
-  text-align: center;
 }
 
 .full-program {
