@@ -33,7 +33,7 @@ Project will open and running to your Browser.
 :bust_in_silhouette: **Author**
 - GitHub: [@githubhandle](https://github.com/abiodunraheem)
 - Twitter: [@twitterhandle](https://twitter.com/@abiodunraheem23)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/abiodun-raheem-908b33154)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abiodun-raheem)
 
 ## :handshake: Contributing
 
